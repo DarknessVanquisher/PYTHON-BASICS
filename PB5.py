@@ -151,7 +151,7 @@ print(B)
 C = "\x48\x65\x6c\x6c\x6f" #its an hex value for 'hello'
 print(C)
 
-
+# to be continued...........string methods {please create the new file}
 
 
 
