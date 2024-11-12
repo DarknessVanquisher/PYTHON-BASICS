@@ -111,7 +111,7 @@ o = "Krishna"
 p = l + m + " > " + n + o
 print(p)
 
-# format strings 
+# 5. format strings 
 q = 3228
 r = f"Krishna's birth year is predicted by archealogist on {q} BCE"
 print(r)
@@ -123,9 +123,11 @@ print(t)  #some numbers consist 2 decimal points so for same we use .2f and .1f 
 u = f" After Counting total years completed from krishna's birth till current year ~ {3228 - 2024}"
 print(u)
 
-# escape characters 
+# 6. escape characters 
 # Single quote
 v = "Radha\'s Krishna & Shiv\'s Parwati"
+#this escape character is usefull when double qoutes are to be used in the same string twice.
+#like for ex : "Radha\"Krishna\""
 print(v)
 #  Backslash
 w = "RadhaKrishna \\ ParvatiShiv \\ SiyaRam \\ LaxmiNarayan"
@@ -134,13 +136,20 @@ print(w)
 x = "RadhaKrishna\nParvatiShiv\nSiyaRam\nLaxmiNarayan"
 print(x)
 # carriage return
-y = "Radhakrishn \r"
+y = "Radhakrishn\rParwatiShiv"
 print(y)
-z = "\t RadhaKrishn"
+# Tab
+z = "RadhaKrishn\tParvatiShiv"
 print(z)
-
-
-
+# Backslash
+A = "Radha Krishna"
+print(A)
+# Octal value 
+B = "\110\145\154\154\157" #its an octal value for 'hello'
+print(B)
+# hexvalue
+C = "\x48\x65\x6c\x6c\x6f" #its an hex value for 'hello'
+print(C)
 
 
 
